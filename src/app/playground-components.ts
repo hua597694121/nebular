@@ -1641,4 +1641,15 @@ export const PLAYGROUND_COMPONENTS: ComponentLink[] = [
       },
     ],
   },
+  {
+    path: 'bootstrap',
+    children: [
+      {
+        path: 'bootstrap-test.component',
+        link: '/bootstrap/bootstrap-test.component',
+        component: 'BootstrapTestComponent',
+        name: 'Bootstrap Test',
+      },
+    ],
+  },
 ];
